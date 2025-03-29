@@ -21,12 +21,12 @@ export default function LogoAnimation() {
       <motion.div
         initial={{ opacity: 0, scale: 0 }}
         animate={{
-          opacity: [0, 0.8, 0.4],
-          scale: [0, 1.2, 1],
+          opacity: [0, 0.9, 0.4],
+          scale: [0, 1.3, 1],
           background: [
-            "radial-gradient(circle, rgba(168, 85, 247, 0.7) 0%, rgba(0,0,0,0) 70%)",
-            "radial-gradient(circle, rgba(236, 72, 153, 0.7) 0%, rgba(0,0,0,0) 70%)",
-            "radial-gradient(circle, rgba(139, 92, 246, 0.7) 0%, rgba(0,0,0,0) 70%)",
+            "radial-gradient(circle, rgba(168, 85, 247, 0.8) 0%, rgba(0,0,0,0) 70%)",
+            "radial-gradient(circle, rgba(236, 72, 153, 0.8) 0%, rgba(0,0,0,0) 70%)",
+            "radial-gradient(circle, rgba(139, 92, 246, 0.8) 0%, rgba(0,0,0,0) 70%)",
           ],
         }}
         transition={{
@@ -42,7 +42,7 @@ export default function LogoAnimation() {
       <motion.div
         initial={{ opacity: 0, scale: 1.2, rotate: 0 }}
         animate={{
-          opacity: 0.6,
+          opacity: 0.8,
           scale: 1,
           rotate: 360,
         }}
@@ -51,9 +51,9 @@ export default function LogoAnimation() {
           scale: { duration: 1 },
           rotate: { duration: 15, repeat: Infinity, ease: "linear" },
         }}
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] rounded-full border-4 border-purple-500 border-opacity-40"
+        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] rounded-full border-4 border-purple-500 border-opacity-50"
         style={{
-          boxShadow: "0 0 30px rgba(168, 85, 247, 0.6)",
+          boxShadow: "0 0 40px rgba(168, 85, 247, 0.7)",
         }}
       />
 
@@ -61,12 +61,12 @@ export default function LogoAnimation() {
       <motion.div
         initial={{ opacity: 0, rotate: 0 }}
         animate={{
-          opacity: 0.7,
+          opacity: 0.8,
           rotate: -360,
           borderColor: [
-            "rgba(139, 92, 246, 0.4)",
-            "rgba(236, 72, 153, 0.4)",
-            "rgba(139, 92, 246, 0.4)",
+            "rgba(139, 92, 246, 0.6)",
+            "rgba(236, 72, 153, 0.6)",
+            "rgba(139, 92, 246, 0.6)",
           ],
         }}
         transition={{
@@ -74,10 +74,10 @@ export default function LogoAnimation() {
           rotate: { duration: 20, repeat: Infinity, ease: "linear" },
           borderColor: { duration: 3, repeat: Infinity, repeatType: "reverse" },
         }}
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[380px] h-[380px] rounded-full border-2 border-indigo-300 border-opacity-30"
+        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[380px] h-[380px] rounded-full border-2 border-indigo-300 border-opacity-40"
         style={{
           background:
-            "radial-gradient(circle, rgba(168, 85, 247, 0.1) 0%, rgba(0,0,0,0) 70%)",
+            "radial-gradient(circle, rgba(168, 85, 247, 0.15) 0%, rgba(0,0,0,0) 70%)",
         }}
       />
 
@@ -112,12 +112,12 @@ export default function LogoAnimation() {
       >
         {/* Logo glow efekti */}
         <motion.div
-          className="absolute inset-0 rounded-full opacity-40 blur-2xl -z-10"
+          className="absolute inset-0 rounded-full opacity-60 blur-2xl -z-10"
           animate={{
             boxShadow: [
-              "0 0 40px 10px rgba(168, 85, 247, 0.4)",
-              "0 0 60px 15px rgba(236, 72, 153, 0.6)",
-              "0 0 40px 10px rgba(168, 85, 247, 0.4)",
+              "0 0 50px 15px rgba(168, 85, 247, 0.6)",
+              "0 0 70px 20px rgba(236, 72, 153, 0.8)",
+              "0 0 50px 15px rgba(168, 85, 247, 0.6)",
             ],
             scale: [1, 1.05, 1],
           }}
@@ -133,9 +133,9 @@ export default function LogoAnimation() {
           className="w-full h-full relative"
           animate={{
             filter: [
-              "drop-shadow(0 0 8px rgba(168, 85, 247, 0.8))",
-              "drop-shadow(0 0 15px rgba(236, 72, 153, 0.8))",
-              "drop-shadow(0 0 8px rgba(168, 85, 247, 0.8))",
+              "drop-shadow(0 0 12px rgba(168, 85, 247, 0.9))",
+              "drop-shadow(0 0 20px rgba(236, 72, 153, 0.9))",
+              "drop-shadow(0 0 12px rgba(168, 85, 247, 0.9))",
             ],
           }}
           transition={{
@@ -157,7 +157,7 @@ export default function LogoAnimation() {
       {/* Parlayan ışık efekti */}
       <motion.div
         initial={{ opacity: 0 }}
-        animate={{ opacity: [0, 0.8, 0] }}
+        animate={{ opacity: [0, 0.9, 0] }}
         transition={{
           duration: 2,
           repeat: Infinity,
@@ -167,7 +167,7 @@ export default function LogoAnimation() {
         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[320px] h-[320px] rounded-full"
         style={{
           background:
-            "radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0) 70%)",
+            "radial-gradient(circle, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0) 70%)",
           filter: "blur(8px)",
         }}
       />
