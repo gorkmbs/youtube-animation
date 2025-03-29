@@ -169,7 +169,7 @@ export default function Home() {
             />
 
             {/* Logo animasyonu */}
-            <motion.div className="flex justify-center items-center w-full relative">
+            <motion.div className="flex justify-center items-center w-full relative z-30">
               <LogoAnimation />
             </motion.div>
 
@@ -179,7 +179,7 @@ export default function Home() {
                 initial={{ opacity: 0, scale: 0.8, y: 20 }}
                 animate={{ opacity: 1, scale: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
-                className="absolute bottom-32 left-16 w-[240px] h-[180px] rounded-xl overflow-hidden z-20 shadow-[0_0_15px_rgba(153,51,255,0.6)]"
+                className="absolute bottom-36 left-16 w-[240px] h-[180px] rounded-xl overflow-hidden z-20 shadow-[0_0_15px_rgba(153,51,255,0.6)]"
                 style={{
                   boxShadow: "0 0 20px rgba(153, 51, 255, 0.7)",
                 }}
@@ -207,7 +207,7 @@ export default function Home() {
                 initial={{ opacity: 0, scale: 0.8, y: -20 }}
                 animate={{ opacity: 1, scale: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
-                className="absolute top-16 right-16 w-[240px] h-[180px] rounded-xl overflow-hidden z-20 shadow-[0_0_15px_rgba(153,51,255,0.6)]"
+                className="absolute top-20 right-16 w-[240px] h-[180px] rounded-xl overflow-hidden z-20 shadow-[0_0_15px_rgba(153,51,255,0.6)]"
                 style={{
                   boxShadow: "0 0 20px rgba(153, 51, 255, 0.7)",
                 }}
@@ -235,7 +235,7 @@ export default function Home() {
                 initial={{ opacity: 0, scale: 0.8, y: -20 }}
                 animate={{ opacity: 1, scale: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
-                className="absolute top-16 left-16 w-[240px] h-[180px] rounded-xl overflow-hidden z-20 shadow-[0_0_15px_rgba(153,51,255,0.6)]"
+                className="absolute top-20 left-16 w-[240px] h-[180px] rounded-xl overflow-hidden z-20 shadow-[0_0_15px_rgba(153,51,255,0.6)]"
                 style={{
                   boxShadow: "0 0 20px rgba(153, 51, 255, 0.7)",
                 }}
@@ -259,7 +259,7 @@ export default function Home() {
 
             {/* Harf harf animasyonlu kullanıcı adı */}
             {showTitle && (
-              <motion.div className="z-20 absolute bottom-[18%] left-1/2 transform -translate-x-1/2">
+              <motion.div className="z-20 absolute bottom-[15%] left-1/2 transform -translate-x-1/2">
                 <div className="flex items-center justify-center mb-8 overflow-hidden">
                   <div className="flex overflow-hidden relative">
                     {/* Arka plan glow efekti */}
@@ -354,7 +354,7 @@ export default function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="absolute bottom-32 right-16 flex flex-col items-center gap-3 z-20"
+                className="absolute bottom-36 right-16 flex flex-col items-center gap-3 z-20"
               >
                 <motion.div
                   variants={buttonVariants}
