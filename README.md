@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ✨ Neon YouTube Animasyon İntrosu ✨
 
-## Getting Started
+<div align="center">
+  
+  ![GBS YouTube Animation](public/gbs_badge.PNG)
 
-First, run the development server:
+### @gbsonstage
+
+  <p>🎮 YouTube kanalınız için göz alıcı, neon efektli intro animasyonu 🎮</p>
+
+</div>
+
+## 🌟 Animasyon Özellikleri
+
+- 💜 Parlak neon renkli efektler
+- 🎬 Özelleştirilebilir video bölümleri
+- ✨ Uçuşan emoji animasyonları
+- 🔄 3B dönen logo animasyonu
+- 💫 Canlı parçacık efektleri
+- 🔔 "Beğen & Abone Ol" çağrıları
+
+## 🚀 Teknolojiler
+
+- 🌐 [Next.js](https://nextjs.org/)
+- ⚡ [Framer Motion](https://www.framer.com/motion/)
+- 🎨 [TailwindCSS](https://tailwindcss.com/)
+
+## 📱 Responsive Tasarım
+
+Tüm ekran boyutlarına uygun olarak tasarlanmıştır! Mobil cihazlarda, tabletlerde ve masaüstü ekranlarda harika görünür.
+
+## 🎥 Nasıl Kullanılır
+
+1. Projeyi klonlayın
+2. Bağımlılıkları yükleyin: `yarn install`
+3. Geliştirme sunucusunu başlatın: `yarn dev`
+4. Video dosyalarını kendi içeriklerinizle değiştirin
+5. Kanal adınızı ve renklerinizi özelleştirin
+
+## 💖 Hadi Başlayalım!
+
+Bu animasyon intro ile kanalınıza hemen profesyonel bir görünüm kazandırın!
 
 ```bash
-npm run dev
-# or
+# Projeyi yükleyin
+git clone https://github.com/gorkem1/youtube-animation.git
+cd youtube-animation
+
+# Bağımlılıkları yükleyin
+yarn install
+
+# Geliştirme sunucusunu başlatın
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<div align="center">
+  
+  ### 🎮 İyi Yayınlar! 🎮
+  
+</div>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📝 Lisans
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
